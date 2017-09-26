@@ -14,5 +14,5 @@ yellowDiamond = PolygonAsset([(0,0), (120,180), (60,300), (0,180)], blackOutline
 text = TextAsset('Gary', fill=blue,style='bold 20pt Times')
 
 Sprite(yellowDiamond, (200,400))
-Sprite(text, (300,300))
+Sprite(text, (100,100))
 App().run()

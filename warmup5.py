@@ -10,7 +10,7 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black) #pixels, color
 
-yellowDiamond = PolygonAsset([(250,150), (350,100), (450,150), (350,400)], blackOutline, yellow) #list of endpoints
+yellowDiamond = PolygonAsset([(250,150), (350,-100), (450,150), (350,400)], blackOutline, yellow) #list of endpoints
 text = TextAsset('Gary', fill=blue,style='bold 20pt Times')
 
 Sprite(yellowDiamond, (100,100))

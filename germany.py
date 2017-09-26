@@ -12,9 +12,9 @@ blackOutline = LineStyle(1,black) #pixels, color
 redOutline = LineStyle(1,red) #pixels, color
 yellowOutline = LineStyle(1,yellow) #pixels, color
 
-blackRectangle = RectangleAsset(400,100,blackOutline,black) #width, heright, outline, fill
-redRectangle = RectangleAsset(400,100,redOutline,red) #width, heright, outline, fill
-yellowRectangle = RectangleAsset(400,100,yellowOutline,yellow) #width, heright, outline, fill
+blackRectangle = RectangleAsset(500,100,blackOutline,black) #width, heright, outline, fill
+redRectangle = RectangleAsset(500,100,redOutline,red) #width, heright, outline, fill
+yellowRectangle = RectangleAsset(500,100,yellowOutline,yellow) #width, heright, outline, fill
 
 Sprite(blackRectangle)
 Sprite(redRectangle,(0,100))
